@@ -123,8 +123,7 @@ Retail-Sales-Analytics-Dashboard/
 │   ├── Customer Insights & Sales Performance Dashboard.pdf
 │   └── Customer Insights & Sales Performance Dashboard.pptx
 │
-├── Images/
-│   └── dashboard.png
+├── dashboard_image.png
 │
 ├── requirements.txt
 ├── README.md
