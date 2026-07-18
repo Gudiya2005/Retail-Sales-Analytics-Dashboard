@@ -2,12 +2,6 @@
 
 An end-to-end Data Analytics project that analyzes retail sales data using Python and presents business insights through an interactive Power BI dashboard.
 
-## 📷 Dashboard Preview
-
-![Dashboard](Images/dashboard.png)
-
----
-
 ## 📌 Project Overview
 
 This project focuses on analyzing retail sales data to identify sales trends, product performance, customer segments, and regional sales distribution. The dataset was cleaned and analyzed using Python, and the results were visualized in an interactive Power BI dashboard to support business decision-making.
