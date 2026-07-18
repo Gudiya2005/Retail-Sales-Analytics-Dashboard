@@ -6,7 +6,7 @@ An end-to-end Data Analytics project developed to analyze retail sales data and 
 
 ## 📷 Dashboard Preview
 
-![Dashboard](Images/Dashboard_image.png)
+![Dashboard](Dashboard_image.png)
 
 ---
 
