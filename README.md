@@ -1,20 +1,26 @@
-# 📊 Retail Sales Analytics & Customer Insights Dashboard
+# 📊 Retail Sales Analytics Dashboard
+
+An end-to-end Data Analytics project that analyzes retail sales data using Python and presents business insights through an interactive Power BI dashboard.
+
+## 📷 Dashboard Preview
+
+![Dashboard](Images/dashboard.png)
+
+---
 
 ## 📌 Project Overview
 
-This project presents an end-to-end retail sales analytics solution designed to help businesses monitor performance, understand customer behavior, and support data-driven decision-making.
-
-The project combines Python for data cleaning and analysis with Power BI for interactive dashboard development. It also includes predictive analytics using Machine Learning to generate future business insights.
+This project focuses on analyzing retail sales data to identify sales trends, product performance, customer segments, and regional sales distribution. The dataset was cleaned and analyzed using Python, and the results were visualized in an interactive Power BI dashboard to support business decision-making.
 
 ---
 
 ## 🎯 Objectives
 
-- Analyze sales and profit performance
-- Identify top-performing products and regions
-- Understand customer purchasing behavior
-- Discover business opportunities through data
-- Predict future sales/customer churn using Machine Learning
+- Analyze overall sales and profit performance
+- Identify top-selling products
+- Compare sales across regions
+- Understand customer segmentation
+- Build an interactive business dashboard
 
 ---
 
@@ -24,7 +30,6 @@ The project combines Python for data cleaning and analysis with Power BI for int
 - Pandas
 - NumPy
 - Matplotlib
-- Scikit-learn
 - Power BI
 - Excel
 
@@ -32,72 +37,68 @@ The project combines Python for data cleaning and analysis with Power BI for int
 
 ## 📂 Dataset
 
-The project uses a retail sales dataset containing information such as:
+**Dataset:** Sample Superstore Dataset
 
-- Orders
-- Customers
-- Products
-- Categories
-- Regions
+The dataset contains:
+
+- Order Details
+- Customer Information
+- Product Information
+- Region
+- Category & Sub-category
 - Sales
 - Profit
-- Discounts
+- Discount
+- Quantity
 
 ---
 
-## 📈 Dashboard Features
+## 📊 Dashboard Features
 
-### Executive Dashboard
-
-- Total Sales
-- Total Profit
-- Total Orders
-- Total Customers
-
-### Sales Analysis
+- KPI Cards
+  - Total Sales
+  - Total Profit
+  - Profit Margin %
 
 - Monthly Sales Trend
-- Sales by Category
-- Sales by Region
-- Top Products
 
-### Customer Insights
+- Sales by Region (Map)
 
-- Customer Segmentation
-- Repeat Customers
-- High-Value Customers
+- Top 10 Products
 
-### Product Analysis
+- Customer Segment Distribution
 
-- Best Selling Products
-- Low Performing Products
-- Profitability Analysis
+- Category-wise Profit Analysis
 
-### Predictive Analytics
-
-- Sales Forecasting
-- Customer Churn Prediction *(optional if implemented)*
+- Interactive Filters
+  - Date
+  - Region
+  - Category
 
 ---
 
-## 📊 Key Business Insights
+## 📈 Key Insights
 
-- Identified top-performing product categories.
-- Compared regional sales performance.
-- Analyzed customer purchasing patterns.
-- Recommended strategies to improve profitability.
-- Built predictive models to support business planning.
+- Technology category generated the highest profit.
+- Consumer segment contributed the largest share of sales.
+- Sales trends varied across different months.
+- Regional analysis highlighted differences in sales performance.
+- Top-performing products contributed significantly to overall revenue.
 
 ---
 
-## 📁 Project Structure
+## 📁 Repository Structure
 
-```
-Dashboard/
-Data/
-Python/
-Presentation/
-README.md
+```text
+Retail-Sales-Analytics-Dashboard/
+│
+├── Dashboard/
+├── Data/
+├── Python/
+├── Presentation/
+├── Images/
+├── README.md
+└── requirements.txt
 ```
 
 ---
@@ -106,49 +107,28 @@ README.md
 
 1. Clone the repository
 
-```
+```bash
 git clone https://github.com/yourusername/Retail-Sales-Analytics-Dashboard.git
 ```
 
 2. Install dependencies
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
-3. Open the Power BI (.pbix) file.
+3. Open the `.pbix` file using Microsoft Power BI Desktop.
 
-4. Run the Python notebooks if you want to reproduce the analysis.
-
----
-
-## 📷 Dashboard Preview
-
-### Executive Dashboard
-
-(Add Screenshot)
-
-### Sales Dashboard
-
-(Add Screenshot)
-
-### Customer Dashboard
-
-(Add Screenshot)
-
-### Forecast Dashboard
-
-(Add Screenshot)
+4. Run the Jupyter Notebook to reproduce the data cleaning and analysis.
 
 ---
 
 ## 📌 Future Improvements
 
-- Live Power BI Service Deployment
-- Real-time Dashboard
-- SQL Database Integration
-- Automated Data Refresh
-- Interactive AI Chatbot for Business Queries
+- Add sales forecasting using Machine Learning
+- Predict customer churn
+- Connect dashboard to a live SQL database
+- Enable automatic data refresh
 
 ---
 
