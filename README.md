@@ -1,20 +1,28 @@
 # 📊 Retail Sales Analytics Dashboard
 
-An end-to-end Data Analytics project that analyzes retail sales data using Python and presents business insights through an interactive Power BI dashboard.
+An end-to-end Data Analytics project developed to analyze retail sales data and provide actionable business insights through an interactive Power BI dashboard.
+
+---
+
+## 📷 Dashboard Preview
+
+![Dashboard](Images/Dashboard_image.png)
+
+---
 
 ## 📌 Project Overview
 
-This project focuses on analyzing retail sales data to identify sales trends, product performance, customer segments, and regional sales distribution. The dataset was cleaned and analyzed using Python, and the results were visualized in an interactive Power BI dashboard to support business decision-making.
+This project was developed as part of an **End-to-End Data Analytics Capstone Project**. It focuses on analyzing retail sales data to uncover trends in sales, profit, customer segments, and regional performance. The data was cleaned and analyzed using Python, and the findings were visualized through an interactive Power BI dashboard to support data-driven business decision-making.
 
 ---
 
 ## 🎯 Objectives
 
 - Analyze overall sales and profit performance
-- Identify top-selling products
-- Compare sales across regions
+- Identify top-performing products and categories
+- Compare sales across different regions
 - Understand customer segmentation
-- Build an interactive business dashboard
+- Build an interactive dashboard for business insights
 
 ---
 
@@ -24,8 +32,9 @@ This project focuses on analyzing retail sales data to identify sales trends, pr
 - Pandas
 - NumPy
 - Matplotlib
+- Seaborn
 - Power BI
-- Excel
+- Microsoft Excel
 
 ---
 
@@ -33,51 +42,64 @@ This project focuses on analyzing retail sales data to identify sales trends, pr
 
 **Dataset:** Sample Superstore Dataset
 
-The dataset contains:
+The dataset contains information about:
 
-- Order Details
-- Customer Information
-- Product Information
-- Region
-- Category & Sub-category
+- Orders
+- Customers
+- Products
+- Categories & Sub-categories
+- Regions
 - Sales
 - Profit
-- Discount
 - Quantity
+- Discount
+
+---
+
+## 🔍 Data Analysis
+
+The following steps were performed before creating the dashboard:
+
+- Data Cleaning
+- Handling Missing Values
+- Removing Duplicates
+- Feature Engineering
+- Exploratory Data Analysis (EDA)
+- Business Insight Generation
 
 ---
 
 ## 📊 Dashboard Features
 
-- KPI Cards
-  - Total Sales
-  - Total Profit
-  - Profit Margin %
+The interactive dashboard includes:
 
+### KPI Cards
+- Total Sales
+- Total Revenue
+- Total Profit
+- Profit Margin
+
+### Visualizations
 - Monthly Sales Trend
-
-- Sales by Region (Map)
-
+- Sales by Region
+- Sales by Category
 - Top 10 Products
-
 - Customer Segment Distribution
 
-- Category-wise Profit Analysis
-
-- Interactive Filters
-  - Date
-  - Region
-  - Category
+### Interactive Filters
+- Region
+- Category
+- Date
 
 ---
 
-## 📈 Key Insights
+## 📈 Key Business Insights
 
-- Technology category generated the highest profit.
-- Consumer segment contributed the largest share of sales.
-- Sales trends varied across different months.
-- Regional analysis highlighted differences in sales performance.
-- Top-performing products contributed significantly to overall revenue.
+- Identified top-performing product categories based on sales and profit.
+- Compared sales performance across different regions.
+- Analyzed monthly sales trends to identify business patterns.
+- Evaluated customer segment contribution to overall sales.
+- Provided business recommendations using data-driven insights.
 
 ---
 
@@ -87,45 +109,83 @@ The dataset contains:
 Retail-Sales-Analytics-Dashboard/
 │
 ├── Dashboard/
+│   └── Customer_Insights_Dashboard.pbix
+│
 ├── Data/
+│   ├── SampleSuperstore.csv
+│   └── Cleaned_superstore_data.csv
+│
 ├── Python/
+│   ├── Capstone_Project.ipynb
+│   └── capstone_project.py
+│
 ├── Presentation/
+│   ├── Customer Insights & Sales Performance Dashboard.pdf
+│   └── Customer Insights & Sales Performance Dashboard.pptx
+│
 ├── Images/
+│   └── dashboard.png
+│
+├── requirements.txt
 ├── README.md
-└── requirements.txt
+└── LICENSE
 ```
 
 ---
 
 ## 🚀 How to Run
 
-1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Retail-Sales-Analytics-Dashboard.git
+git clone https://github.com/your-username/Retail-Sales-Analytics-Dashboard.git
 ```
 
-2. Install dependencies
+### 2. Install Required Libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Open the `.pbix` file using Microsoft Power BI Desktop.
+### 3. Run the Analysis
 
-4. Run the Jupyter Notebook to reproduce the data cleaning and analysis.
+- Open `Capstone_Project.ipynb` using Jupyter Notebook.
+- Execute the notebook to perform data cleaning and analysis.
+
+### 4. Open the Dashboard
+
+Open `Customer_Insights_Dashboard.pbix` using **Microsoft Power BI Desktop**.
 
 ---
 
 ## 📌 Future Improvements
 
-- Add sales forecasting using Machine Learning
-- Predict customer churn
-- Connect dashboard to a live SQL database
-- Enable automatic data refresh
+- Implement Machine Learning for sales forecasting.
+- Add customer churn prediction.
+- Connect the dashboard to a live SQL database.
+- Enable automatic data refresh.
+- Build an AI-powered chatbot for dashboard insights.
+
+---
+
+## 💡 Skills Demonstrated
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Dashboard Development
+- Business Analytics
+- Business Storytelling
+- Python Programming
+- Power BI
+- Data-Driven Decision Making
 
 ---
 
 ## 👩‍💻 Author
 
 **Gudiya Kumari Sharma**
+
+---
+
+## ⭐ If you found this project helpful, consider giving it a star!
